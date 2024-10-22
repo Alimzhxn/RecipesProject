@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1{
+    margin: 0;
+}
+header{
+    background-color: #535353;
+    padding: 20px 100px;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(77, 24, 0, 0.689);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.d.rec{
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.navbar a:hover{
+    transform: scale(1.4);
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* поисктын артындагы афиша */
+.hero{
+    background-image: url('suretter/afisha-photo.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    color: #fff;
+    width:100%;
+    height: 500px;
+}
+h2{
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 1.2em;
+    margin-bottom: 100px;
+}
+
+.featured-recipes{
+    padding: 40px 20px;
+    text-align: center;
+}
+h2{
+    margin-bottom: 30px;
+    padding-top: 100px;
+    padding-bottom: 4px;
+}
+.recipes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.recipe-card{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 500px;
+    text-align: left;
+    margin-top: 35px;
+    transition-duration: 1s, 2s;
+    transition-property: all
+}
+
+.recipe-card:hover{
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+img{
+    width: 100%;
+    height: 320px;
+}
+h3{
+    padding: 15px;
+    font-size: 1.2em;
+}
+p{
+    padding: 0 15px;
+    color: #666;
+}
+
+.p-txt{
+    color: #fff;
+}
+
+button{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.nav-box{
+    display: flex;
+    column-gap: 20px;
+}
